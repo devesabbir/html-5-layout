@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  display: inline-block;
+  background-color: #bf0667;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+}
+
+.secondary-btn {
+  display: inline-block;
+  background-color: #ffd;
+  color: #bf0667;
+  padding: 10px 20px;
+  border: 1px solid #bf0667;
+}
+
+/* Header CSS Start */
+header {
+  background-color: #fff;
+  padding: 20px 10px;
+}
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-wrapper .brand {
+}
+header .header-wrapper nav {
+}
+header .header-wrapper nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-wrapper nav ul li a {
+  font-weight: 400;
+  transition: 0.4s;
+}
+
+.header-wrapper nav ul li a:hover {
+  font-weight: bold;
+}
+/* Header CSS end */
+
+/* banner csss start */
+.banner-section {
+  background-image: url(./assets/images/pexels-flo-dahm-1137511.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.banner-section::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(6 5 5 / 60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner-section .content {
+  text-align: center;
+}
+
+.banner-section .content h1 {
+}
+.banner-section .content p {
+}
+.banner-section .content a {
+}
+/* banner csss end */
+
+/* service css start */
+.service-section {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.service-section .service-title {
+  text-align: center;
+}
+.service-section .service-title h3 {
+}
+.service-section .service-wrapper {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+.service-section .service-wrapper .service-box {
+}
+
+.service-box .card {
+  text-align: center;
+}
+.service-box .card .card-title {
+  padding: 10px 0;
+}
+.service-box .card .card-content {
+  padding: 10px 0;
+}
+
+.service-box .card .card-content .card-action {
+}
+/* service css end */
+
+/* contact-section css start */
+.contact-section {
+  background-color: #e3cca4;
+  padding: 50px 0;
+}
+.contact-section .contact-area {
+  text-align: center;
+}
+/* contact-section css end */
+/*  footer css start */
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+/*  footer css end */
